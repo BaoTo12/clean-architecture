@@ -1,4 +1,9 @@
 package com.chibao.edu.application.port.out;
 
-public class UpdateAccountStatePort {
+import com.chibao.edu.application.domain.model.Account;
+
+public interface UpdateAccountStatePort {
+
+    void updateActivities(Account account);
+
 }
